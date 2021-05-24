@@ -264,7 +264,7 @@ public class Run {
             case "ft": {
                 // 方糖
                 try {
-                    URIBuilder builder = new URIBuilder("https://sc.ftqq.com/" + pushKey + ".send");
+                    URIBuilder builder = new URIBuilder("https://sctapi.ftqq.com/" + pushKey + ".send");
                     builder.addParameter("text", text);
                     builder.addParameter("desp", desp);
 
